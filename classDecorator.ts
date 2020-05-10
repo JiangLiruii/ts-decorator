@@ -5,12 +5,24 @@
 // };
 import 'reflect-metadata'
 
-const classD:ClassDecorator = target => {
-  target.prototype.sayName = function(){console.log()}
+const classDecorator:ClassDecorator = target => {
+  target.prototype.sayName = () => console.log('override');
+  // return target
 }
 
-@classD
 export class TestClassDecrator {
-  constructor(private name='test') {
+  public name = ''
+  constructor(name: string) {
+    this.name = name
+  }
+  sayName() {
+    console.log(this.name)
   }
 }
+Reflect.decorate([classDecorator], TestClassDecrator)
+
+
+const t = new TestClassDecrator('nihao')
+
+t.sayName()
+
