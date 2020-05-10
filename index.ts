@@ -2,5 +2,6 @@
 // import './propertyDecorator'
 // import './metadata'
 // import './defineMetadata'
-import './hasMetadata'
+// import './hasMetadata'
+import './hasOwnMetadata'
 
