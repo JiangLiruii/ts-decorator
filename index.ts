@@ -5,5 +5,6 @@
 // import './hasMetadata'
 // import './hasOwnMetadata'
 // import './getMetadataKeys'
-import './deleteMetadata'
+// import './deleteMetadata'
+import './design'
 
