@@ -4,5 +4,6 @@
 // import './defineMetadata'
 // import './hasMetadata'
 // import './hasOwnMetadata'
-import './getMetadataKeys'
+// import './getMetadataKeys'
+import './deleteMetadata'
 
