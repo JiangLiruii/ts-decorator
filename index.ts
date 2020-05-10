@@ -1,3 +1,4 @@
-import './classDecorator'
-import './propertyDecorator'
+// import './classDecorator'
+// import './propertyDecorator'
+import './metadata'
 

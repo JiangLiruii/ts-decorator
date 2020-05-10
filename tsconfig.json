@@ -2,6 +2,9 @@
   "compilerOptions": {
     "target": "ES5",
     "emitDecoratorMetadata": true,
-    "experimentalDecorators":true
+    "experimentalDecorators":true,
+    "lib": ["ES2020", "DOM"],
+    "outDir": "out",
+    "sourceMap": true
   }
 }
